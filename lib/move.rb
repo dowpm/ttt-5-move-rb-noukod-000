@@ -8,9 +8,10 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(position)
-  retun position - 1.to_i
+  retun position-1.to_i
 end
 
 def move(array, index, character="X")
   array[index] = character
+  return array
 end
